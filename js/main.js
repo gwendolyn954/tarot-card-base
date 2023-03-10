@@ -4,7 +4,7 @@ function getFetch(){
     const url = 'https://tarot-api.onrender.com/api/v1/cards/random?n=3'
   
     fetch(url)
-        .then(res => res.json()) // parse response as JSON
+        .then(res => res.json()) 
         .then(data => {
           console.log(data)
 
@@ -20,8 +20,6 @@ function getFetch(){
         document.getElementById('card2-up').innerText = data.cards[2].meaning_up
         document.getElementById('card2-rev').innerText = data.cards[2].meaning_rev
     
-
-         
         })
         .catch(err => {
             console.log(`error ${err}`)
