@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: rgb(0, 215, 238);
+    height: 60px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+.logo-img {
+    height: 60px;
+    width: 60px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+}
+
+.cards .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    
+}
+
+.tarotcard {
+    margin: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+span {
+    margin-top: -30px;
+    padding-bottom: 50px;
+    display: block;
+    text-align: center;
+    font-style: italic;
+}
+
